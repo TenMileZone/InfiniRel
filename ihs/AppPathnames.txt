@@ -1,0 +1,18 @@
+
+[AppFilePaths]
+MGI RWA Section Options=2.0.1 %04Y%02m%02d %02H%02M%S%25u*~|.%d*~|.;*~|.%#_13g
+FilePaths in.RunTimeSys?=FALSE
+FilePaths in.AppFolder=E:\IHS\ihs
+FilePaths in.ExecutablePath=<NONE>
+FilePaths in.ConfigFolder=C:\IHS_new\Config
+FilePaths in.DataLogFolder=C:\IHS_new\DataLog
+FilePaths in.SystemLogFolder=C:\IHS_new\SystemLog
+FilePaths in.SeqFolder=C:\IHS_new\SeqFolder
+FilePaths in.MainStartupPathname=E:\IHS\ihs\Source\Application\Process_Application.vi
+FilePaths in.MainUIPathname=E:\IHS\ihs\Source\Subsystems\Main\ControlUI_Main.vi
+FilePaths in.SystemEventsFile=C:\IHS_new\SystemLog\SystemEvents.txt
+FilePaths in.SeqEventsFile=C:\IHS_new\SeqFolder\SeqEvents.txt
+FilePaths in.Config SettingsFile=C:\IHS_new\Config\IHS_Config.xml
+FilePaths in.DAQ IOConfigFile=C:\IHS_new\Config\IOConfig.xml
+FilePaths in.SystemSimulation=FALSE
+RunTimeSys?=FALSE

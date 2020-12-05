@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<Config_Settings>
+  <Application_Settings>
+    <Simulation>false</Simulation>
+  </Application_Settings>
+  <Main_Settings>
+    <Simulation>false</Simulation>
+    <Signal_scaling>
+      <ch0_gain_>13.333</ch0_gain_>
+      <ch1_gain>13.333</ch1_gain>
+      <ch2_gain_>14.286</ch2_gain_>
+      <ch3_gain_>20</ch3_gain_>
+      <ch0_offest>0</ch0_offest>
+      <ch1_offset>0</ch1_offset>
+      <ch2_offset>0</ch2_offset>
+      <ch3_offset>0</ch3_offset>
+    </Signal_scaling>
+    <ESR_scaling>
+      <Gain>1</Gain>
+      <Offset>0</Offset>
+    </ESR_scaling>
+    <num_readings_to_average>40</num_readings_to_average>
+    <ESR_alarm_threshhold_>200</ESR_alarm_threshhold_>
+    <UseDummyVrms>false</UseDummyVrms>
+    <Dummy_Vrms>0</Dummy_Vrms>
+    <Inverter_Database_File>C:\Projects\InfiniRel\IHS\Docs\Config\Inverter XML Database.xml</Inverter_Database_File>
+    <default_Inverter_name>Inverter-02</default_Inverter_name>
+  </Main_Settings>
+  <DAQ_Settings>
+    <Simulation>false</Simulation>
+    <Initial_ErrReporting_setting>0</Initial_ErrReporting_setting>
+    <Initial_Measurement_settings>
+      <Data_Rate_9775>20</Data_Rate_9775>
+      <Data_Rate_9215>20</Data_Rate_9215>
+      <Samples_RMS_9215>1000</Samples_RMS_9215>
+      <Samples_RMS_9775>1000</Samples_RMS_9775>
+    </Initial_Measurement_settings>
+    <BoardNum>
+      <P1Sgl>0</P1Sgl>
+      <P2>1</P2>
+      <P3>2</P3>
+    </BoardNum>
+    <Acquisition_mode>3phase-parallel</Acquisition_mode>
+    <DemoMode>true</DemoMode>
+  </DAQ_Settings>
+  <LogEngine_Settings>
+    <Simulation>false</Simulation>
+    <TDMS_FolderPath>TDMS</TDMS_FolderPath>
+    <CSV_FolderPath>DataLog</CSV_FolderPath>
+    <TDMS_FileName_Prefix>FirstTest</TDMS_FileName_Prefix>
+    <CSV_FileName_Prefix>FirstTest</CSV_FileName_Prefix>
+    <TDMS_LogDurations>10</TDMS_LogDurations>
+    <CSV_LogDurations>0</CSV_LogDurations>
+  </LogEngine_Settings>
+</Config_Settings>
