@@ -41,6 +41,9 @@
 				<Item Name="Inverter LUT v2--cluster.ctl" Type="VI" URL="../Source/Common/DataTypes/Inverter LUT v2--cluster.ctl"/>
 				<Item Name="Inverter database record v2--cluster.ctl" Type="VI" URL="../Source/Common/DataTypes/Inverter database record v2--cluster.ctl"/>
 				<Item Name="inverter info v2--cluster.ctl" Type="VI" URL="../Source/Common/DataTypes/inverter info v2--cluster.ctl"/>
+				<Item Name="Sensor ranges--cluster.ctl" Type="VI" URL="../Source/Common/DataTypes/Sensor ranges--cluster.ctl"/>
+				<Item Name="Sensor database record--cluster.ctl" Type="VI" URL="../Source/Common/DataTypes/Sensor database record--cluster.ctl"/>
+				<Item Name="Sensor LUT--cluster.ctl" Type="VI" URL="../Source/Common/DataTypes/Sensor LUT--cluster.ctl"/>
 			</Item>
 			<Item Name="Lib" Type="Folder"/>
 			<Item Name="Support" Type="Folder">
@@ -112,6 +115,8 @@
 		<Item Name="Launch App.vi" Type="VI" URL="../Launch App.vi"/>
 		<Item Name="FG - FilePathnames.vi" Type="VI" URL="../FG - FilePathnames.vi"/>
 		<Item Name="Load All - VI Tree.vi" Type="VI" URL="../Load All - VI Tree.vi"/>
+		<Item Name="Sensor DB xml.vi" Type="VI" URL="../Source/Subsystems/Config/Support/Sensor DB xml.vi"/>
+		<Item Name="sensor list.vi" Type="VI" URL="../Source/Subsystems/Main/support/sensor list.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
